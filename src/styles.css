@@ -1,0 +1,49 @@
+html {
+  background: black;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: white;
+  overflow: auto;
+  padding: 2rem;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.button-group {
+  margin: 2rem 0;
+  display: block;
+}
+
+button {
+  min-width: 20ch;
+  padding: 1rem;
+  background-color: #233143;
+  border: 0;
+  outline: 0;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.result {
+  display: block;
+  background-color: #999;
+  margin: 2rem 0;
+  min-height: 4rem;
+  padding: 2rem;
+}
